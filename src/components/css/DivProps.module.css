@@ -1,0 +1,33 @@
+.div_container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+    height: 270px;
+    margin-top: 20px;
+}
+
+.pink_div {
+    position: relative;
+    width: 47%;
+    min-height: 270px;
+    height: auto;
+    background-color: #ba8a8a;
+}
+
+#texto {
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.pink_div h2 {
+    margin-left: 27px;
+    margin-top: 15px;
+}
+
+.pink_div p {
+    width: 79%;
+    margin-top: 20px;
+    margin-left: 27px;
+}
