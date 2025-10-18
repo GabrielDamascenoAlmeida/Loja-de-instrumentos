@@ -1,0 +1,37 @@
+header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 190px;
+    background-image: url(../../assets/images/vista-da-guitarra-na-loja-de-instrumentos-musicais.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 78px;
+    width: 39%;
+    height: 40px;
+    background-color: rgb(236, 236, 236);
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    height: 31px;
+    width: 17%;
+}
+
+nav a:hover {
+    background-color: #3ec3c2;
+}
