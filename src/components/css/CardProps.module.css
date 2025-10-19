@@ -1,0 +1,23 @@
+.white_div {
+    position: relative;
+    width: 20%;
+    height: 310px;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    text-align: center;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.classico {
+    margin-top: 10px;
+    width: 60%;
+    height: 180px;
+}
+
+#preco {
+    color: rgb(216, 40, 40);
+    font-weight: bolder;
+    margin-top: 5px;
+}

@@ -3,6 +3,8 @@ import loja from "./assets/images/loja-imagens.jpeg"
 import Header from './components/Header'
 import SectionProps from './components/SectionProps'
 import DivProps from "./components/DivProps" 
+import CardProps from './components/CardProps' 
+import Footer from './components/Footer'
 import './App.css'
 
 function App() {
@@ -19,9 +21,21 @@ function App() {
             imagemFundo={`url(${loja})`}  alt={"Loja de instrumentos musicais"}
             />}
         />
+
+        <SectionProps 
+              identificador="cian"
+              content={
+                <div style={{position: 'relative', display: 'flex', justifyContent: 'space-between', width: '90%', height: '290px',margin: 'auto'}}>
+                  <CardProps />
+                  <CardProps />
+                  <CardProps />
+                  <CardProps />
+                </div>
+              }
+        />
           
         <SectionProps 
-        identificador="cian"
+        identificador="yellow"
         titulo1="Nossa Loja - Instrumentos Musicais" // Você pode querer mudar este título
         texto1="Está situada na Rua Tito, 54 - Pompéia, próximo ao teatro Cacilda Becker, em uma construção do século XIX, numa área de 500m2, com uma variada gama de instrumentos, em um ambiente agradável para toda a família!"
         content={
@@ -41,6 +55,7 @@ function App() {
               } 
             />}
             />
+            <Footer />
     </main>
   )
 }
