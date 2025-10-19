@@ -36,7 +36,7 @@ function App() {
         />
           
         <SectionProps 
-        identificador="yellow"
+        identificador="brown"
         titulo1="Nossa Loja - Instrumentos Musicais" // Você pode querer mudar este título
         texto1="Está situada na Rua Tito, 54 - Pompéia, próximo ao teatro Cacilda Becker, em uma construção do século XIX, numa área de 500m2, com uma variada gama de instrumentos, em um ambiente agradável para toda a família!"
         content={
