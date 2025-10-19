@@ -21,3 +21,12 @@
     font-weight: bolder;
     margin-top: 5px;
 }
+
+@media (max-width: 1300px) { 
+    .white_div {
+        height: auto;
+        width: 90%;
+        height: 310px;
+    }
+
+}

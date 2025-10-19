@@ -44,6 +44,40 @@ main {
     justify-content: center;
 }
 
+
+
 .ocultar {
     display: none;
+}
+
+#div_container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 290px;
+    margin: auto;
+}
+
+@media (max-width: 1300px) { 
+    #cian {
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: auto;
+        background-color: #def7f6;
+        margin-top: 15px;
+    }
+    #div_container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    }
 }

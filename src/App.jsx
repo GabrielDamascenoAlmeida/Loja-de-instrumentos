@@ -4,6 +4,7 @@ import Header from './components/Header'
 import SectionProps from './components/SectionProps'
 import DivProps from "./components/DivProps" 
 import CardProps from './components/CardProps' 
+import Forms from './components/Forms'
 import Footer from './components/Footer'
 import './App.css'
 
@@ -25,7 +26,7 @@ function App() {
         <SectionProps 
               identificador="cian"
               content={
-                <div style={{position: 'relative', display: 'flex', justifyContent: 'space-between', width: '90%', height: '290px',margin: 'auto'}}>
+                <div id='div_container'>
                   <CardProps />
                   <CardProps />
                   <CardProps />
@@ -55,6 +56,7 @@ function App() {
               } 
             />}
             />
+            <Forms />
             <Footer />
     </main>
   )

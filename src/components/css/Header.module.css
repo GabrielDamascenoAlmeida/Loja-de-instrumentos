@@ -35,3 +35,18 @@ nav a {
 nav a:hover {
     background-color: #3ec3c2;
 }
+@media (max-width: 1300px) {
+
+    nav {
+        flex-direction: column;
+        background:none;
+        width: 80%;
+        gap: 10px;
+        margin-left: 90px;
+    }
+    nav a {
+        background-color: rgb(236, 236, 236);
+        width: 100%;
+    }
+
+}
